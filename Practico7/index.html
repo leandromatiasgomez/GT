@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi portafolio</title>
+  <link rel="icon" href="img/portafolio.png" type="image/png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!--Nadvar-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#">Leandro Gomez</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-light">▼</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#portafolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#sobreMi">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Encabezado-->
+  <div class="position-relative overflow-hidden p-3 p-md-5 text-center bg-light" style="background-image: url(img/ba.jpeg); background-position: center center; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <img src="img/programador.png" class="rounded mx-auto d-block img-fluid" alt="">
+    <h1 class="text-uppercase text-light mx-auto d-block rounded p-1 position-relative overflow-hidden" style="background: #17202A; width: 30%; ">Leandro Gomez</h1>
+  </div>
+
+  <!--Portafolio-->
+  <div class="position-relative overflow-hidden p-3 p-md-3 text-center" id="portafolio" style="background:#17202A;">
+    <h2 class="text-uppercase text-center text-light p-5">portfolio</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="img/pan.png" alt="">
+          <h3 class="text-light p-3">Home Cooking</h3>
+        </div>
+        <div class="col-sm">
+          <img src="img/fut.png" alt="">
+          <h3 class="text-light p-3">Always Sporting</h3>
+        </div>
+        <div class="col-sm">
+          <img src="img/uni.png" class="rounded-circle" alt="">
+          <h3 class="text-light p-3">University</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Acerca de mi-->
+  <div class="position-relative overflow-hidden p-3 p-md-3 text-center bg-light" id="sobreMi">
+    <h2 class="text-uppercase text-center p-2">Acerca de mí</h2>
+    <hr>
+    <p class="lead mb-4 p-2">
+      ¡Hola! Me llamo Leandro Gomez y soy estudiante del último año de la escuela secundaria técnica "Confederación Suiza" 26 de 6, tengo 18 años, nací en Buenos Aires y me encanta aprender cosas nuevas.
+    </p>
+  </div>
+
+  <!--Acerca de mi-->
+  <div class="position-relative overflow-hidden p-3 p-md-3 text-center" style="background:#17202A;" id="contacto">
+    <h2 class="text-uppercase text-center text-light p-5">Contacto</h2>
+    <div class="p-md-3">
+      <div class="form-floating p-2">
+        <input type="text" name="" id="floatingName" class="form-control" placeholder="name">
+        <label for="floatingName">Nombre</label>
+      </div>
+      <div class="form-floating p-2">
+        <input type="email" name="" id="floatingInput" class="form-control" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating p-2">
+        <input type="text" name="" id="floatingNumber" class="form-control" placeholder="number">
+        <label for="floatingNumber">Número de teléfono</label>
+      </div>
+      <div class="form-floating p-2">
+        <textarea name="" id="floatingText" class="form-control bg-light" placeholder="text"></textarea>
+        <label for="floatingText" class="text-dark">Mensaje</label>
+      </div>
+      <input type="submit" class="w-50 mt-3 p-md-2">
+    </div>
+  </div>
+
+  <!--Footer-->
+  <div class="position-relative overflow-hidden p-3 p-md-3 text-center bg-dark" id="portafolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h5 class="text-light p-3 text-uppercase">Dirección</h5>
+          <p class="text-light">Chile 2582</p>
+        </div>
+        <div class="col-sm">
+          <h5 class="text-light p-3 text-uppercase">Mis redes</h5>
+          <a href="https://www.instagram.com/leagomez03/"><img src="img/ig.png" alt="" style="width: 5%;"></a>
+          <div>
+            <a href="https://www.instagram.com/leagomez03/" class="text-light"><i class="fa-duotone fa-camera-retro" style="color: #1c7ed6;"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <h6 class="text-uppercase text-center text-light p-2"  style="border-top: 1px solid white;">Copyright © Mi Portafolio 2024</h6>
+    </div>
+    
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+img{
+    width: 30%;
+    margin: 1.4%;
+}
+
+h1{
+    width: 20%;
+    margin-left: 1.4%;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #a52a2a;
+    padding-bottom: 5px;
+}
+
+.info{
+    display: flex;
+    border: 2px solid black;
+}
+
+.images{
+    width: 50%;
+    margin: 1.5%;
+    height: 100%s;
+}
+
+p{
+    font-size: 25px;
+}
+
+#arrow{
+    width: 5%;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#back{
+    width: 6%;
+    margin: 0px;
+    margin-top: 1%;
+    color: #a52a2a;
+    border-bottom: 2px solid black;
+}
+
+#back:hover{
+    color: black;
+    border-bottom: 2px solid #a52a2a;
+}
